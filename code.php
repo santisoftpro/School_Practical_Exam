@@ -12,6 +12,7 @@ if(isset($_POST['sadv']))
         echo "failed";
     }
 }
+//Updating Adversaries
 if(isset($_POST['upadv']))
 {
     $id = $_POST['id'];
@@ -37,6 +38,7 @@ if(isset($_POST['delbtn']))
         echo "data is not deleted";
     }
 }
+// updating Referees
 if(isset($_POST['sarefer']))
 {
     $fname = $_POST['fname'];
@@ -81,6 +83,7 @@ if(isset($_POST['delref']))
         echo "data is not Deleted";
     }
 }
+// Inserting Matchces
 if(isset($_POST['samatc']))
 {
     $ref = $_POST['refid'];
