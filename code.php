@@ -23,7 +23,7 @@ if(isset($_POST['upadv']))
         header("Location: view_adversaries.php");
     }
     else{
-        echo "Data is not updated";
+        echo "Data is not updated there is error please check";
     }
 }
 if(isset($_POST['delbtn']))
